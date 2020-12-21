@@ -1,12 +1,4 @@
-/* 
-div, h1, h2, h3, .header__square-pic, .header__main-illustration, .description, .digits  {
-   border-style: solid;
-   
-   }
-   .feynman{
-     border-style:solid;
-     border-color: red;
-   } */
+
 
 .page {
   min-width: 1100px;
@@ -295,8 +287,7 @@ div, h1, h2, h3, .header__square-pic, .header__main-illustration, .description, 
 
 .kaufman__background-color {
   background-color: black;
-  opor
-}
+ }
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -368,46 +359,91 @@ width: 877px;
 height: 877px;
 position: absolute;
 right: -210px;
-bottom: -100px;
-
-z-index: -0;
+top: 0px;
+z-index: 0;
 }
 /* ------------------footer-------------------- */
 .footer{
- /* flex-basis: 711px; */
+ 
    display: flex;
   z-index: 0;
   background-color: black;
-  border-style:dashed;
-  border-color:greenyellow;
   min-height: 350px;
   justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  margin: 0;
 
 }
 
-.footer__colums{
-  margin-top: 60px;
-  margin-bottom: 40px;
-  border-style:dashed;
-  border-color:greenyellow;
+.footer__colums{ 
   display: flex;
   width: 90%;
-
+   
 }
 
-.logo__place_footer{
-color:white;
+/* .logo__place_footer{
+  color:white;
 z-index: 1;
 width: 183px;
 height: 35px;
-}
+align-self: flex-start;
+
+} */
 
 .footer__column_content_copyright{
-color:white;
-align-self: flex-end;
-padding-bottom: 18px;
-padding-top: 18px;
+  color:white;
+  flex-basis: 711px;
+   display: flex;
+ margin-bottom: 18px;
+
 }
 
+.footer__author{
+  align-self: start;
+  color: white;
+  align-self: flex-end;
+}
 
+.footer__column_content_info{
+color: white;
+padding-left: 150px;
+min-width: 150px;
+
+}
+
+.footer__column_content_social{
+  color: white;
+}
+
+.column__heading{
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-style: bold;
+}
+
+.column__link{
+text-decoration: none;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+  
+}
+
+.footer__column_content_social{
+ padding-left: 150px;
+ min-width: 120px;
+}
+
+.column__link{
+  line-height: 1.8;
+}
 
