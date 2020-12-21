@@ -259,9 +259,6 @@
   width: 867px;
   height: 637px;
   position: absolute;
-  width: 765px;
-  height: 608px;
-  left: 0;
   bottom: 0;
   z-index: -1;
 }
@@ -400,7 +397,6 @@ align-self: flex-start;
 }
 
 .footer__author{
-  align-self: start;
   color: white;
   align-self: flex-end;
 }
@@ -412,10 +408,6 @@ min-width: 150px;
 
 }
 
-.footer__column_content_social{
-  color: white;
-}
-
 .column__heading{
   margin: 0;
   padding-top: 10px;
@@ -425,10 +417,6 @@ min-width: 150px;
   font-style: bold;
 }
 
-.column__link{
-text-decoration: none;
-
-}
 
 ul {
   list-style-type: none;
@@ -441,9 +429,11 @@ ul {
 .footer__column_content_social{
  padding-left: 150px;
  min-width: 120px;
+   color: white;
 }
 
 .column__link{
   line-height: 1.8;
+  text-decoration: none;
 }
 
