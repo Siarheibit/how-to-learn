@@ -25,7 +25,9 @@
   left: 64px;
   position: absolute;
 }
-.logo__place_header:hover { background: rgb(161, 183, 190);}
+.logo__place_header:hover {
+  background: rgb(161, 183, 190);
+}
 
 .header__title {
   align-self: center;
@@ -55,7 +57,9 @@
   margin: 0;
   text-decoration: none;
 }
-.header__link:hover { font-size: 30px;}
+.header__link:hover {
+  font-size: 30px;
+}
 
 .header__main-illustration {
   z-index: -1;
@@ -250,8 +254,9 @@
   font-weight: normal;
 }
 
-.feynman__link:hover { font-size: 66px;}
-
+.feynman__link:hover {
+  font-size: 66px;
+}
 
 /* -------------------------------Kaufman-------------------------------------------- */
 .kaufman {
@@ -262,7 +267,6 @@
   align-content: center;
   background-color: black;
   z-index: 1;
-
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -291,23 +295,19 @@
 }
 
 .table__theme_dark {
- 
   padding-top: 90px;
 }
 
 .table__cell_one_theme_dark {
- 
   padding-bottom: 80px;
 }
 
 .table__cell_two_theme_dark {
- 
   margin: 0;
   padding: 0;
 }
 
 .table__heading_theme_black {
-
   color: white;
   line-height: 1.15;
   font-size: 24px;
@@ -315,7 +315,6 @@
 }
 
 .table__text_theme_dark {
-
   margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -357,7 +356,9 @@
   height: 35px;
 }
 
-.logo__place_footer:hover {background-color:rgb(247, 247, 247)}
+.logo__place_footer:hover {
+  background-color: rgb(247, 247, 247);
+}
 
 .footer__column_content_copyright {
   color: white;
@@ -372,9 +373,12 @@
   color: white;
   position: relative;
   top: 250px;
+  width: 180px;
 }
 
-.footer__author:hover {font-size: 20px;}
+.footer__author:hover {
+  background-color: #3674d1;
+}
 
 .footer__column_content_info {
   line-height: 30px;
@@ -401,7 +405,6 @@ ul {
 .footer__column_content_social {
   color: white;
   line-height: 1.8;
-  
 }
 
 .footer__column-link {
@@ -409,8 +412,9 @@ ul {
   text-decoration: none;
 }
 
-.footer__column-link:hover {background-color:#f2f2f2}
-
+.footer__column-link:hover {
+  background-color: #f2f2f2;
+}
 
 .footer__social-icon {
   height: 16px;
