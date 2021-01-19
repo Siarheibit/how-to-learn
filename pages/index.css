@@ -14,9 +14,9 @@
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 
-@import url(../blocks/footer/__column_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column_content/footer__column_content_info.css);
-@import url(../blocks/footer/__column_content/footer__column_content_social.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_info.css);
+@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 
 
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
@@ -58,11 +58,14 @@
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
+@import url(../blocks/two-columns/__main-text/two-columns__main-text_indent_top.css);
+
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
+
 @import url(../blocks/rotation/rotation.css);
-@import url(../blocks/animation/animation.css);
+
 
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__description/cards__description.css);
@@ -79,7 +82,7 @@
 
 @import url(../blocks/oakley/oakley.css);
 
-@import url(../blocks/two-columns/_indent/two-columns_indent.css);
+
 
 @import url(../blocks/khan/khan.css);
 @import url(../blocks/khan/__author/khan__author.css);
