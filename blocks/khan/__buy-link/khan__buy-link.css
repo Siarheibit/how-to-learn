@@ -3,9 +3,13 @@
     font-size: 30px;
     font-weight: normal;
     padding-left: 48px;
+    align-self: flex-start;
+    text-decoration: none;
+     color: #2f80ed;
+       transition-duration: 0.5s;
 }
 
 .khan__buy-link:hover {
-  transition-duration: 0.5s;
+
   opacity: 20%;
 }

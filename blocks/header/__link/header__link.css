@@ -3,8 +3,9 @@
   margin: 0;
   text-decoration: none;
   color: #2f80ed;
+    transition-duration: 0.5s;
 }
 .header__link:hover {
-  transition-duration: 0.5s;
+
   opacity: 20%;
 }
